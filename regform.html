@@ -14,45 +14,45 @@
             <p class="container">
                 <label>
                     USN<span class="star">*</span></label>
-                    <input type="text" name="usn" id="usn inpreg" class="required"/>
+                    <input type="text" name="usn" id="usn" class="required inpreg"/>
             </p>
             <p class="container">
                       <label>
                     Name<span class="star">*</span></label>
-                    <input type="text" name="name" id="name inpreg" class="required"/>
+                    <input type="text" name="name" id="name" class="required inpreg"/>
             </p>
                     <p class="container">
                 <label>
                     Email<span class="star">*</span></label>
-                    <input type="text" name="email" id="email inpreg" class="required"/>
+                    <input type="email" name="email" id="email" class="required inpreg"/>
             </p>
                    <p class="container">
                       <label>
                    Mobile<span class="star">*</span></label>
-                    <input type="text" name="mobile" id="mobile inpreg" class="required"/>
+                    <input type="text" name="mobile" id="mobile" class="required inpreg"/>
              </p>
                    <p class="container">
                       <label>
                    Course<span class="star">*</span></label>
-                    <select name="course" multiple="yes">
+                    <select name="course" id="course" class="required inpreg" >
                         <option value="">select option</option>
-                        <option>Civil</option>
-                        <option>CE</option>
-                        <option>IS</option>
-                        <option>EC</option>
-                        <option>ME</option>
+                        <option value="civil">Civil</option>
+                        <option value="ce">CE</option>
+                        <option value="is">IS</option>
+                        <option value="ece">ECE</option>
+                        <option value="me">ME</option>
                     </select>
             </p>
                        <p class="container">
                 <label>
                    Percentage<span class="star">*</span></label>
-                    <input type="text" name="percentage" id="percentage inpreg" class="required"/>
+                    <input type="number" name="percentage" id="percentage" class="required inpreg"/>
             </p>
                    
                 <p class="container">
                  <label>&nbsp;</label>
-                <input type="submit" value="Register" id="btnsub"/>
-                <input type="reset" value="Clear" id="btnsub"/>
+                <input type="button" value="Register" id="btnsub" class="submit"/>
+                <input type="reset" value="Clear" class="reset" id="btnsub"/>
           </p>
                     
                 
